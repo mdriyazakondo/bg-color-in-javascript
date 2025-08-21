@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 25%;
+}
+#bg-color {
+}
+#click-btn {
+  padding: 10px 40px;
+  border: 1px solid red;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+#bg {
+  padding: 10px 10px;
+  /* color: white; */
+}
