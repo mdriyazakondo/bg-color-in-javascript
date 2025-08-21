@@ -15,6 +15,8 @@ const bgColorGanarator = () => {
   return `rgba(${red},${blue},${green})`;
 };
 
+BgColor.innerText = bgColorGanarator();
+// BgColor.style.color = "rgba(0,96,80)";
 clickBtn.addEventListener("click", (e) => {
   const styleTextColor = colorGanarator();
   const styleBgColor = bgColorGanarator();
